@@ -76,7 +76,7 @@ export default function App() {
                 <>
                   <div className="grid grid-cols-2 gap-4">
                     <div className="p-4 rounded-2xl bg-purple-900/10 border border-purple-500/20">
-                      <p className="text-[10px] font-bold text-purple-400 mb-2">GPT-4O-MINI</p>
+                      <p className="text-[10px] font-bold text-purple-500 mb-2">GPT-4O-MINI</p>
                       <p className="text-sm">{m.gpt.answer.join(" ")}</p>
                       <p className="text-[10px] mt-2 opacity-50">Confidence: {m.gpt.confidence}/5</p>
                     </div>
